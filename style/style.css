@@ -16,9 +16,16 @@ img{
     display: flex;
 }
 .title{
-
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgba(244, 17, 207, 1);
+  margin-bottom: 14px;
 }
 .sub-title{
+    font-weight: 700;
+    font-size: 2.75rem;
+    color: black;
+    margin-bottom: 50px;
 
 }
 .paragraph-description{
@@ -63,4 +70,32 @@ img{
     color: black;
     border: 5px solid rgba(72, 61, 87, 0.24);
 }
-
+/* servixe style */
+.service{
+    margin: 150px 0;
+}
+.service-box{
+    width: 87%;
+    margin: 0 auto;
+}
+.service-content{
+    text-align: center;
+}
+.service-card{
+    max-width: 250px;
+    text-align: center;
+   background: linear-gradient(180deg,rgba(195, 247, 254, 1),rgba(255, 255, 228, 1) );
+   padding: 80px 50px;
+   border-radius: 15px;
+}
+ .service-card-container{
+    
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 50px;
+ }
+ .service-icon{
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+ }
